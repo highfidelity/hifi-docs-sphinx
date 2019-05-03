@@ -6,8 +6,6 @@ You can edit an entity's size, color, position and rotation using your mouse or 
 
 .. image:: _images/select-entity.PNG
 
-.. note:: By default, zone entities cannot be selected for editing. To select these entities, you must click on the entity in the Entity List of the **Create** app.
-
 .. contents:: On This Page
     :depth: 2
 
