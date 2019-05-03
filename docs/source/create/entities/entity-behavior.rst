@@ -17,7 +17,7 @@ To make an entity dynamic:
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Select your entity on the 'Entity List' window or just click on it. 
-3. Go to the 'Properties' tab, scroll down to 'Collisions' and check 'Dynamic'.
+3. Go to the 'Properties' tab, scroll down to 'Collision' and check 'Dynamic'.
 
 ------------------------------------
 Set Entity Behavior on Collision
@@ -128,7 +128,10 @@ OR
 Set an Entity to Cast a Shadow
 -------------------------------------
 
-You can make your entity behave like a real world object by making it cast a shadow on other entities and avatars. Here are the different shadow settings you can configure:
+You can make your entity behave like a real world object by making it cast a shadow on other entities and avatars. In High Fidelity, entities cast shadows only from the key light, not from the light entities. The key light is a parallel source of light, like the sun. 
+
+
+Here are the different shadow settings you can configure:
 
 +-------------+--------------------------------------------------------------+
 | Behavior    | Description                                                  |
