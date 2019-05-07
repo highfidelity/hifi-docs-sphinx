@@ -10,6 +10,8 @@ You can import a 3D model into High Fidelity by hosting it online or [hosting it
 
 If you wish to make your model [available for purchase on our Marketplace](../../sell/add-item/upload-model.html), or make it available to users in other domains, you can host it on a cloud service of your choice and then import it.
 
+We recommend [baking your model using our Oven tool](../../host/oven.html) before importing it into High Fidelity. Baking is the process of optimizing a 3D model's resources, making it easier to transmit, store, and render the model.
+
 1. Upload your 3D model's files to the hosting service of your choice.
 2. Copy the OBJ or FBX file's URL.
 3. In Interface, pull up your HUD or Tablet and go to **Create**.
@@ -20,6 +22,8 @@ If you wish to make your model [available for purchase on our Marketplace](../..
 ## Import 3D Models Using the Asset Server
 
 You can [import your 3D model through your Asset Server](../../host/manage-assets.html#add-an-asset-to-the-asset-server). The Asset Server hosts files or assets that can either be added as-is to a domain or that are referenced by existing entities and scripts already in a domain. This is accessible only in a domain where you have the permission to create and edit an entity.
+
+3D models with embedded textures that are uploaded to the Asset Server [will be automatically baked](../../host/manage-assets.html#bake-an-asset).
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Click 'Open this Domain's Asset Server'.
@@ -35,3 +39,5 @@ You can [import your 3D model through your Asset Server](../../host/manage-asset
 + [Add Your 3D Model to the Marketplace](../../sell/add-item/upload-model.html)
 + [Creator Tools](../tools.html)
 + [Create New Entities](../entities/create-entities.html)
++ [Bake Your Content Using the Oven](../../host/oven.html)
++ [Bake Content Using the Asset Server](../../host/manage-assets.html#bake-an-asset)

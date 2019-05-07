@@ -25,9 +25,10 @@ The Oven is a tool that will help you bake any of the following types of content
 |           | .ktx images, and the original texture. Baking might introduce some compression artifacts, but                |
 |           | these are usually minor. Baking a texture produces mipmaps, which allow you to progressively                 |
 |           | load textures, and compresses the results. Baking large textures like skyboxes can take a while,             |
-|           | but the benefits at runtime for everyone loading the skybox image will be significant. We                    |
-|           | support textures in the following formats: BMP, CUR, GIF, ICNS, ICO, JPEG, JPG, PBM, PGM, PNG,               |
-|           | PPM, SVG, SVGZ, TGA, TIF, TIFF, WBMP, WEBP, XBM, XPM, EXR                                                    |
+|           | but the benefits at runtime for everyone loading the skybox image will be significant. For the best High     |
+|           | Fidelity experience, we recommend using textures in the PNG, JPEG, and JPG formats. We also support textures |
+|           | in the TGA, TIF, and TIFF formats, but you may have issues when you import your models. We recommend         |
+|           | baking all 3D models before uploading to High Fidelity.                                                      |
 +-----------+--------------------------------------------------------------------------------------------------------------+
 | Materials | Baking a material will produce a .baked.json file and will also bake all of the textures in the              |
 |           | material. Currently, we only support baking a `material entity JSON file <../create/entities/mate            |
